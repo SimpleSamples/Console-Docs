@@ -24,7 +24,7 @@ There are two ways to clear the screen in a console application.
 ## <span id="Example_1"></span><span id="example_1"></span><span id="EXAMPLE_1"></span>Example 1
 
 
-The first method is to use the C run-time **system** function. The **system** function invokes the **cls** command provided by the command interpreter to clear the screen.
+The first method is to use the C run-time **system** function. The **system** function invokes the **cls** command provided by the command interpreter to clear the screen. Note that this is a highly inefficient way to clear the screen.
 
 ```ManagedCPlusPlus
 #include <stdlib.h>
